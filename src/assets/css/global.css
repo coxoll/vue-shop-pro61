@@ -1,0 +1,15 @@
+html,body,#app{
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+/* 给home左侧栏设置样式(由于插槽默认设置了样式权重不够，需要在全局中设置样式) */
+.el-submenu__title,
+.el-menu-item
+{font-size:13px;}
+
+/* 给左侧图标设置样式 */
+i.iconfont{
+  margin-right:10px;
+}
